@@ -30,3 +30,54 @@ body{
 .service-details{
     margin-top: 8rem;
 }
+
+#serviceH1{
+    margin-top: 5px;
+}
+
+.kufanya h3{
+    margin-bottom: 2rem;
+}
+
+#developmentPara{
+    margin-bottom: 5px;
+    display: none;
+    font-size: 12px;
+}
+
+#designPara{
+    display: none; /* display: none means that the element is not displayed at all */
+    font-size: 12px;
+}
+
+#projectPara{
+    display: none;
+    font-size: 12px;
+}
+
+.portfolio{
+    align-items: center;
+}
+
+#contactTitle{
+    margin-top: 5px;
+}
+
+.form-buda{
+    background-image: url('/img/c_image.jpeg');
+    background-size: cover;
+}
+.form-control{
+    background: transparent !important;
+    width: 83%;
+    margin-left: 5rem;
+}
+.form-control::placeholder {
+    color: white !important;
+}
+
+
+
+#messageArea{
+    height: 26vh;
+}
