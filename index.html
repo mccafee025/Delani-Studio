@@ -215,7 +215,12 @@
 
       <!-- JQuery and JS section -->
       <script>
-          $()
+          $(document).ready(function(){
+              $('#design').click(function(){
+                  $('#designPara').toggle()
+                  $('#designPicha').toggle()
+              })
+          })
       </script>
     
 </body>
