@@ -242,6 +242,12 @@
                   var name = $('input#name').val();
                   var email = $('input#email').val();
                   var message = $('textarea#messageArea').val();
+                  if ($('input#name').val() && $('input#email').val()){
+                      alert (name + ", we have received your message. Thank your for reaching to us.");                
+                  }
+                  else {
+                      alert('Please enter your name and email please!');
+                  }
               })
 
 
