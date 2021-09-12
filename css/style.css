@@ -26,3 +26,7 @@ body{
     background-size: cover;
     height: 30vh;
 }
+
+.service-details{
+    margin-top: 8rem;
+}
