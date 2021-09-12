@@ -20,3 +20,9 @@ body{
 .aboutTitle{
     margin-top: 55px;
 }
+
+.main-services{
+    background-image: url('/img/s_image.jpeg');
+    background-size: cover;
+    height: 30vh;
+}
